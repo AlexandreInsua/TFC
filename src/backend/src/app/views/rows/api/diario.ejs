@@ -1,0 +1,14 @@
+[
+<% for(var i = 0; i < row.length; i++) { %>
+    {"dateg": "<%= row[i].hiDatetime %>",
+    "temperature":
+        <%= row[i].hiTemp %>,"airhr":
+            <%= row[i].hiAirHr %>,"floorhr":
+                <%= row[i].hiFloorHr %>, "light":
+                    <%= row[i].hiLight %>, "dvph":
+                        <%= row[i].hiDvph %>}
+
+                            <% if(i < row.length-1) { %> ,
+                                <% } %>
+
+                                    <% } %>]

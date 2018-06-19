@@ -1,0 +1,30 @@
+<h3>Datos en tempo real</h3>
+
+<div class="row">
+  <div class="elemento-actual">
+    <div>Temperatura</div>
+    <div [class]="toogleClassTemperature()">
+      <span id="temp" class="texto-boton font-weight-bold">{{row.temperature}}</span> ºC</div>
+  </div>
+  <div class="elemento-actual">
+    <div>Humidade relativa</div>
+    <div [class]="toogleClassAirHr()">
+      <span class="texto-boton font-weight-bold">{{row.airhr}}</span> %</div>
+  </div>
+  <div class="elemento-actual">
+    <div>Humidade do solo</div>
+    <div [class]="toogleClassFloorHr()">
+      <span class="texto-boton font-weight-bold">{{row.floorhr}}</span> %</div>
+  </div>
+  <div class="elemento-actual">
+    <div>Nivel de iluminación</div>
+    <div [class]="toogleClassLux()">
+      <span class="texto-boton font-weight-bold">{{row.light}} </span> Lux</div>
+  </div>
+  <div class="elemento-actual">
+    <div>DVPH</div>
+    <div [class]="toogleClassDvph()">
+      <span class="texto-boton font-weight-bold">{{row.dvph}}</span>
+    </div>
+  </div>
+</div>

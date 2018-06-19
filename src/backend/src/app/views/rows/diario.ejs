@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="gl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="witdh=device-witdh, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Greenhouser server</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid grey;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body style="margin-left: 5%">
+    <h1>Greenhouse server</h1>
+    <div>Greenhouse server funcionando!</div>
+    <nav>
+        <a href=".">Home</a> |
+        <a href="actual">Fila actual</a> |
+        <a href="diario">Filas diario</a> |
+        <a href="historico">Filas histórico</a> |
+        <a href="api/actual">Api actual</a> |
+        <a href="api/diario">Api diario</a> |
+        <a href="api/historico">Api histórico</a> 
+    </nav>
+    <hr>
+
+    <h2>Lectura dos valores no dia </h2>
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Temp</th>
+            <th>Airhr</th>
+            <th>Floorhr</th>
+            <th>Light</th>
+            <th>Dvpt</th>
+        </tr>
+
+        <% for(var i = 0; i < row.length; i++) { %>
+            <tr>
+                <td>
+                    <%= row[i].hiDatetime %>
+                </td>
+                <td>
+                    <%= row[i].hiTemp %>
+                </td>
+                <td>
+                    <%= row[i].hiAirHr %>
+                </td>
+                <td>
+                    <%= row[i].hiFloorHr %>
+                </td>
+                <td>
+                    <%= row[i].hiLight %>
+                </td>
+                <td>
+                    <%= row[i].hiDvph %>
+                </td>
+            </tr>
+            <% } %>
+    </table>
+
+
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    background: #fff2e6;
+}
+h1 {
+    font-size: 5em;
+    font-family: 'Gurajada', serif;
+    text-emphasis: inherit;
+    /* font-family: 'Oleo Script', cursive; */
+}
+.elemento-actual{
+    margin: 1.5em;  
+    margin-top: 8em;
+}
+
+.elemento-actual-boton{
+    padding: 1.8em;
+    border-radius: 0.5em;
+}
+
+.border-p{
+    border-bottom: 3px solid darkblue;
+    border-right: 3px solid darkblue; 
+}
+
+.border-i{
+    border-bottom: 3px solid #007399;
+    border-right: 3px solid #007399; 
+}
+
+.border-s{
+    border-bottom: 3px solid darkgreen;
+    border-right: 3px solid darkgreen; 
+}
+
+.border-w{
+    border-bottom: 3px solid darkgoldenrod;
+    border-right: 3px solid darkgoldenrod; 
+}
+.border-d{
+    border-bottom: 3px solid brown;
+    border-right: 3px solid brown; 
+}
+
+.border-se{
+    border-bottom: 3px solid #353535;
+    border-right: 3px solid #353535; 
+}
+
+.border-l{
+    border-bottom: 3px solid #999999;
+    border-right: 3px solid #999999; 
+}
+.texto-boton{
+    margin-top: 2em;
+    font-size: 2em;
+}
+
+a {
+    color: black !important;
+    font-weight: bold !important; 
+}
+
+.nav-link :active {
+    text-decoration: underline !important;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid black;
+  }
+
+  .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+      text-decoration: underline !important;
+    border-color: black black black;
+  }
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+ text-decoration: underline !important;
+ 
+  border-color: black black black !important;
+}

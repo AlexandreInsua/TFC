@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="gl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="witdh=device-witdh, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Greenhouser server</title>
+</head>
+
+<body style="margin-left: 5%">
+    <h1>Greenhouse server</h1>
+    <div>Greenhouse server funcionando!</div>
+    <nav>
+        <a href=".">Home</a> |
+        <a href="actual">Fila actual</a> |
+        <a href="diario">Filas diario</a> |
+        <a href="historico">Filas histórico</a> |
+        <a href="api/actual">Api actual</a> |
+        <a href="api/diario">Api diario</a> |
+        <a href="api/historico">Api histórico</a> 
+    </nav>
+    <hr>
+
+    <h2>Servidor para a aplicación</h2>
+
+    <div style="width: 75%;">
+        <p>
+            <strong>Greenhouse server</strong> é o servidor que provee de datos para a aplicación. No servidor están gardadas as
+            lecturas tempo real (cada segundo) e un histórico co promedio dos direntes valores cada hora. Os seguintes datos
+            para a aplicación Greenhouse: </p>
+        <ul>
+            <li>
+                <strong>Lectura de datos en tempo real</strong>. Rexistra a temperatura en ºC, a humidade relativa en %, a humidade
+                do solo en %, o nivel de luminancia en Lux e o déficit de presión de vapor cada segundo. </li>
+            <li>
+                <strong>Lectura de datos no día</strong>. Mostra o valor promedio da temperatura en ºC, a humidade relativa en %,
+                a humidade do solo en %, o nivel de luminancia en Lux e o déficit de presión de vapor cada hora do día actual.
+                </li>
+            <li>
+                <strong>Histórico de lectura de datos</strong>Rexistra o promedio da temperatura en ºC, a humidade relativa en %,
+                a humidade do solo en %, o nivel de luminancia en Lux e o déficit de presión de vapor desde o inicio da aplicación.</li>
+        </ul>
+
+    </div>
+
+</body>
+
+</html>

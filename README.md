@@ -7,7 +7,7 @@ Its objective is to design and develop an application where the knowledge acquir
 Next, the operation of the components and the structure of the repository is explained.
 Futher information, do not hesitate to contact me.*
 
-*I maintain it as an objective test of its presentation.*
+*I maintain it as an objective evidence of its presentation.*
 
 ## Presentación
 

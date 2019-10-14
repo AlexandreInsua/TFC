@@ -2,7 +2,7 @@
 
 ## Abstract
 
-*This repository contains the description and source code of the **Final Project** of vocational studies about programminng.
+*This repository contains the description and source code of the **Final Project** of 2-years upper vocational degree about programming.
 Its objective is to design and develop an application where the knowledge acquired during the training were applied.
 Next, the operation of the components and the structure of the repository is explained.
 Futher information, do not hesitate to contact me.*

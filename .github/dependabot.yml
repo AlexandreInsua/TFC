@@ -8,11 +8,11 @@ updates:
     rebase-strategy: auto
     schedule:
       interval: "daily"
-      timezone: 05:00 UTC
+      timezone: "05:00 UTC"
   - directory: /scr/frontend
     open-pull-requests-limit: 10
     package-ecosystem: npm
     rebase-strategy: auto
     schedule:
       interval: "daily"
-      timezone: 05:00 UTC
+      timezone: "05:00 UTC"
